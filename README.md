@@ -46,9 +46,7 @@ $gradlew test
 $gradlew testCoverageReport
 ```
 
-
-
-
+## Step 2 :: [Add More test cases workshop](https://github.com/up1/workshop-android-testing-202307/wiki)
 
 
 
