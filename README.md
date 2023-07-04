@@ -11,7 +11,42 @@
   * Shadow
 
 
-## Step to run
+### Step 1 :: Unit Test + UI Testing
+
+See all tasks
+```
+$gradlew tasks
+```
+
+### Run UI Testing
+* connectedAndroidTest
+* connectedMockedDebugAndroidTest
+* connectedProdDebugAndroidTest
+* createMockedDebugCoverageReport
+* createProdDebugCoverageReport
+```
+$gradlew connectedAndroidTest
+```
+
+### Run Unit testing
+* test
+* testMockedDebugUnitTest
+* testMockedReleaseUnitTest
+* testProdDebugUnitTest
+* testProdReleaseUnitTest
+```
+$gradlew test
+```
+
+### Run Code coverage
+* createMockedDebugCoverageReport
+* createProdDebugCoverageReport
+* testCoverageReport
+```
+$gradlew testCoverageReport
+```
+
+
 
 
 
