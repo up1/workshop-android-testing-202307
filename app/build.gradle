@@ -3,7 +3,7 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 
-//apply from: 'jacoco.gradle'
+apply from: 'jacoco.gradle'
 
 android {
     namespace 'com.example.demowithtest'
